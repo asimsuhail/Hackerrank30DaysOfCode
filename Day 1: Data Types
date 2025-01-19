@@ -1,0 +1,22 @@
+
+
+    int intVar;
+    double doubleVar;
+    string stringVar;
+    // Declare second integer, double, and String variables.
+    cin >> intVar;
+    cin >> doubleVar;
+   
+     cin.ignore();
+     getline(cin,stringVar);
+    
+    cout <<i+intVar;
+    cout <<'\n'<<fixed<<setprecision(1)<<(d+doubleVar);
+    cout <<'\n'<<(s+stringVar);
+    // Print the sum of both integer variables on a new line.
+    
+    // Print the sum of the double variables on a new line.
+    
+    // Concatenate and print the String variables on a new line
+    // The 's' variable above should be printed first.
+
